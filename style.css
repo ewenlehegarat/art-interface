@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(71, 60, 165);
+}   
+
+.container{
+    text-align: center;
+    background-color: rgb(216, 133, 25);
+    width: 800px;
+    height: 600px;
+    border-radius: 25px;
+    padding: 25px 200px;
+    color: white;
+    scale: 1.30;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 7px;
+}
+
+
+h1 a{
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1 a:hover{
+    color: rgb(71, 60, 165);
+    text-decoration: underline;
+}
+
+p{
+    font-size: 10px;
+    position: absolute;
+}
+
+.les_img{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    transition: 1.5s ease;
+    border-radius: 10px;
+}
+
+.auto_portrait{
+    position: absolute;
+    width: 175px;
+    height: 150px;
+    transform: translateX(-100px);
+    cursor: pointer;
+}
+
+.auto_portrait:hover{
+    transform: translate(-100px, -15px);
+}
+
+.p_auto_portrait{
+    transform: translate(-100px, 134px);
+}
+
+.van_gogh{
+    position: absolute;
+    width: 175px;
+    height: 150px;
+    transform: translateX(100px);
+    cursor: pointer;
+}
+
+.van_gogh:hover{
+    transform: translate(100px, -15px);
+}
+
+.p_van_gogh{
+    transform: translate(100px, 135px);
+}
+
+.auto_portrait2{
+    position: absolute;
+    width: 175px;
+    height: 150px;
+    transform: translate(-101px, 175px);
+    cursor: pointer;
+}
+
+.auto_portrait2:hover{
+    transform: translate(-101px, 160px);
+}
+
+.p_auto_portrait2{
+    transform: translate(-101px, 310px);
+}
+
+.cafe_de_nuit{
+    position: absolute;
+    width: 175px;
+    height: 150px;
+    transform: translate(100px, 175px);
+    cursor: pointer;
+}
+
+.cafe_de_nuit:hover{
+    transform: translate(100px, 160px);
+}
+
+.p_cafe_de_nuit{
+    transform: translate(100px, 310px);
+}
+
+.icon_fb:hover{
+    color: blue;
+}
+
+.icon_twitter:hover{
+    color: rgb(0, 119, 255);
+}
+
+.icon_insta:hover{
+    color: #Db0b51;
+}
+
+.icon_linkedin:hover{
+    color: rgb(78, 114, 190);
+}
+
+.icon_github:hover{
+    color: rgb(146, 0, 114);
+}
+
+footer i{
+    transition: 1s;
+}
+
+footer i:hover{
+    transform: scale(1.2) translateY(-2px) rotate(15deg);
+}
+
+footer{
+    letter-spacing: 0.5rem;
+    margin-top: 350px;
+}
+
+footer a{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.btn_ytb{
+    background-color: #ffffff;
+    color: rgb(216, 133, 25);
+    border: none;
+    border-radius: 75px;
+    padding: 5px 6px;
+    font-size: 13px;
+    cursor: pointer;
+    transform: translateY(150px);
+}
+
+.btn_ytb:hover{
+    color: red;
+}
+
+.video_ytb{
+    position: relative;
+    scale: 1.35;
+    display: none;
+    transform: translateX(-59px) translateY(20px);
+}
+
+.btnX{
+    padding: 10px 15px;
+    border-radius: 50%;
+    border: none;
+    transform: translateY(100px) translateX(170px);
+    cursor: pointer;
+    display: none;
+}
+
+.btnX:hover{
+    color: rgb(216, 133, 25);
+}

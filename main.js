@@ -43,7 +43,7 @@ myBtnx.addEventListener('click', function () {
     myIconLinkedin.style.display = 'block';
     myIconGithub.style.display = 'block';
     myFooter.style.display = 'flex';
-    myFooter.style.transform = 'translateX(37px)'
+    myFooter.style.transform = 'translateX(200px)'
     myFooter.style.letterSpacing = '1.3rem'
 });
 
